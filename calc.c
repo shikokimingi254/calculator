@@ -1,3 +1,33 @@
+
+Conversation opened. 1 read message.
+
+Skip to content
+Using Gmail with screen readers
+ 
+ 
+More 
+3 of 15
+ 
+Calculator Files
+Inbox
+	x
+Kelvin Mihingo N <kmihingo22@gmail.com>
+	
+Attachments2:10 PM (7 hours ago)
+	
+to me
+Go to your calculator folder and paste this three files. They should replace the existing ones that are there.
+3 Attachments
+	
+Click here to Reply or Forward
+0.01 GB (0%) of 15 GB used
+Manage
+Terms · Privacy · Program Policies
+Last account activity: 4 days ago
+Details
+	
+	
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -7,38 +37,52 @@ This is the main method
 It's the entry point of our program
 */
 int main(int argc, char* argv[]){
-	int argv1, argv2;
-	printf("Calculator\n\n");
-	printf("number of arguments passed: %d\n", argc);
-	printf("first argument: %s\n", argv[0]);
-	if(argc>1){
-		if(argc>=3){
-		argv1 = atoi(argv[1]);
-		argv2 = atoi(argv[2]);
-		printf("The sum of argv[1] and argv[2]: %d\n", add(argv1, argv2));
-		}
-	}
-	return 0;
+	int a, b, choice;
+	
+while(&choice!=0)
+{
+	printf("\nCalculator\n\n");
+	printf("1:Addition\n2:Substraction\n3:Multiplication\n4:Division\n0:exit\nSelect Action:\n");
+	scanf("%d", &choice);
 
-	//function declaration
-    int add(int a, int b);
-    int subtract(int a, int b);
-    float divide(int a, int b);
-    int multiply(int a, int b);
-    #include "functions.h"
+switch(choice){
+    case 0:
+        return 0;
+        break;
+    case 1:
+        printf("Enter 1st number:\n");
+        scanf("%d", &a);
+        printf("Enter 2nd number:\n");
+        scanf("%d", &b);
+        printf("Your result is:%d", add(a,b));
+        break;
+    case 2:
+        printf("Enter 1st number:\n");
+        scanf("%d", &a);
+        printf("Enter 2nd number:\n");
+        scanf("%d", &b);
+        printf("Your result is: %d ", subtract(a,b));
+        break;
+    case 3:
+        printf("Enter 1st number:\n");
+        scanf("%d", &a);
+        printf("Enter 2nd number:\n");
+        scanf("%d", &b);
+        printf("Your result is: %d", multiply(a,b));
+        break;
+    case 4:
+        printf("Enter 1st number:\n");
+        scanf("%d", &a);
+        printf("Enter 2nd number:\n");
+        scanf("%d", &b);
+        printf("Your result is: %.2f", divide(a,b));
+        break;
+    default:
+        printf("That is not a valid choice.");
+        break;
+}
+        }
+        }
 
-    //a function implementation
-    int add(int a, int b){
-    	return a+b;
-    }
-    int subtract(int a, int b){
-    	return a-b;
-    }
-    int multiply(int a, int b){
-    	return a*b;
-    }
-    float divide(int a, int b){
-    	return a/b;
-    }
-}*/
-// Calculator  using C code
+calc.c
+Displaying calc.c.
