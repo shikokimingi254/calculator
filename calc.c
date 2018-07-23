@@ -1,33 +1,4 @@
 
-Conversation opened. 1 read message.
-
-Skip to content
-Using Gmail with screen readers
- 
- 
-More 
-3 of 15
- 
-Calculator Files
-Inbox
-	x
-Kelvin Mihingo N <kmihingo22@gmail.com>
-	
-Attachments2:10 PM (7 hours ago)
-	
-to me
-Go to your calculator folder and paste this three files. They should replace the existing ones that are there.
-3 Attachments
-	
-Click here to Reply or Forward
-0.01 GB (0%) of 15 GB used
-Manage
-Terms · Privacy · Program Policies
-Last account activity: 4 days ago
-Details
-	
-	
-
 #include<stdio.h>
 #include<stdlib.h>
 
