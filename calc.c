@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
 	
 while(&choice!=0)
 {
-	printf("\nCalculator\n\n");
+	printf("\nCalculator\n\n");//return answer
 	printf("1:Addition\n2:Substraction\n3:Multiplication\n4:Division\n0:exit\nSelect Action:\n");
 	scanf("%d", &choice);
 
